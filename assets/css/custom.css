@@ -30,7 +30,7 @@
 footer h6{color: #878782;}
 footer a, footer p{color: #fff;}
 .logo-f{margin: 0 15px;}
-.bottom_footer{background-color: #172337; color: #fff;}
+.bottom_footer{background-color: #172337; color: #fff;border-top: solid 1px #6a6a6a;}
 .bottom_header{background-color: #3577bc;}
 .navbar .navbar-nav > li > a.active, .navbar .navbar-nav > li:hover > a{color: #fff;}
 .f-icons{display: flex; align-items: center;}
