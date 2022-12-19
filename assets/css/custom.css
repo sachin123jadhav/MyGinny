@@ -10,7 +10,7 @@
 .custom_select select{border:0; background-color: transparent;}
 .navbar-collapse{justify-content: center;}
 .location-text{margin: -6px 0 0 0;}
-.banner_section.slide_medium, .banner_section.slide_medium .carousel-item, .banner_section.slide_medium .banner_content_wrap, .banner_section.slide_medium .banner_content_wrap .carousel-item, .banner_section.shop_el_slider, .banner_section.shop_el_slider .carousel-item, .banner_section.shop_el_slider .banner_content_wrap, .banner_section.shop_el_slider .banner_content_wrap .carousel-item{ height: 400px; }
+.banner_section.slide_medium, .banner_section.slide_medium .carousel-item, .banner_section.slide_medium .banner_content_wrap, .banner_section.slide_medium .banner_content_wrap .carousel-item, .banner_section.shop_el_slider, .banner_section.shop_el_slider .carousel-item, .banner_section.shop_el_slider .banner_content_wrap, .banner_section.shop_el_slider .banner_content_wrap .carousel-item{ height: 330px; }
 .banner_content h2.top-text{font-size: 105px; color:#fff; text-transform: none;    margin: 0;    padding: 0; line-height: 1;}
 .banner_content h2.top-text span{font-size: 50px; text-transform: uppercase;}
 .banner_content h2.top-text2{font-size: 60px; color:#fff; text-transform: none;    margin-top: 0;
@@ -30,9 +30,18 @@
 footer h6{color: #878782;}
 footer a, footer p{color: #fff;}
 .logo-f{margin: 0 15px;}
-.bottom_footer{background-color: #8dcfef; color: #fff;}
+.bottom_footer{background-color: #172337; color: #fff;}
 .bottom_header{background-color: #3577bc;}
 .navbar .navbar-nav > li > a.active, .navbar .navbar-nav > li:hover > a{color: #fff;}
+.f-icons{display: flex; align-items: center;}
+.f-icons img{width: 20px; height: 20px;}
+.f-icons p{font-size: 14px; margin-bottom: 0; padding-left: 5px;color: #fff;}
+.bottom_footer p {
+	color: #fff;
+  }
+.banner_content{display: none;}
+
+
 
 
 @media only screen and (min-width: 992px){
