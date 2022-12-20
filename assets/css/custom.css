@@ -6,7 +6,7 @@
 .search_btn2{background: transparent;    border-left: solid 1px #3774b9;}
 .search_btn2 i{font-size: 22px;}
 .product_search_form { box-shadow: rgba(0, 0, 0, 0.1)  0px 1px 4px 2px; border-radius: 25px;   }
-.product_search_form input{border-width: 0 0 0 1px; border-left: solid 1px #3774b9 !important; color: #3774b9;}
+.product_search_form input{border: none; color: #3774b9;}
 .custom_select select{border:0; background-color: transparent;}
 .navbar-collapse{justify-content: center;}
 .location-text{margin: -6px 0 0 0;}
@@ -40,6 +40,7 @@ footer a, footer p{color: #fff;}
 	color: #fff;
   }
 .banner_content{display: none;}
+.navbar-brand{max-width: 160px;}
 
 
 
