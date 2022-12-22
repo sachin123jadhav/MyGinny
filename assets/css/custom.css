@@ -55,7 +55,8 @@ footer a, footer p{color: #fff;}
 @media only screen and (max-width: 991px){
 /* .nav_block{    flex-direction: column;} */
 .location{position: absolute;
-    top: 84px;}
+    top: 110px;}
+	.nav_block .location a p.location-text,.nav_block .location a i.ion-location{color: #fff;}
 
 }
 @media only screen and (max-width:780px){
