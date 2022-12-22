@@ -1053,7 +1053,7 @@ button:focus:not(:focus-visible) {
 	color: #ffffff;
 }
 .middle-header {
-	padding: 10px 0 0;
+	padding: 0;
 	position: relative;
 }
 .navbar {
@@ -1140,7 +1140,7 @@ button:focus:not(:focus-visible) {
 .navbar .navbar-nav > li > .nav-link {
 	font-weight: 500;
 	padding: 15px 25px;
-	text-transform: capitalize;
+	text-transform: uppercase;
 	font-size: 14px;
 }
 .navbar .navbar-nav > li > a.active, 
@@ -2366,7 +2366,7 @@ input.text {
 	-ms-flex-align: center;
 	align-items: center;
 	-ms-flex-pack: justify;
-	justify-content: space-between;
+	justify-content: space-between;padding: 15px 0;
 }
 .categories_wrap {
 	position: relative;
