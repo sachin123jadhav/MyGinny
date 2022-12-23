@@ -2366,7 +2366,7 @@ input.text {
 	-ms-flex-align: center;
 	align-items: center;
 	-ms-flex-pack: justify;
-	justify-content: space-between;padding: 15px 0;
+	justify-content: space-between;padding:0;
 }
 .categories_wrap {
 	position: relative;
@@ -5188,7 +5188,7 @@ footer .widget_title {
 	opacity: 1;
 }
 .pr_action_btn li a {
-	background-color: #fff;
+	background-color: transparent;
 	font-size: 0;
 	text-transform: capitalize;
 	transition: all 0.3s ease-in-out;
@@ -5196,16 +5196,16 @@ footer .widget_title {
 	height: 37px;
 	padding: 0;
 	display: block;
-	text-align: center;
+	text-align: center; color: #3577bc;
 }
 .pr_action_btn li a i {
 	vertical-align: middle;
 	line-height: 37px;
-	font-size: 18px;
+	font-size: 25px;
 }
 .pr_action_btn li a:hover {
-	background-color: #3577bc;
-	color: #fff;
+	background-color: transparent;
+	color: #3577bc;
 }
 .product .product_title,
 .product_box .product_title,
