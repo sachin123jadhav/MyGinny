@@ -5,7 +5,8 @@
 .nav_block,.nav_block i, .nav_block a,.nav_block p{color: #3774b9;}
 .search_btn2{background: transparent;    border-left: solid 1px #3774b9;}
 .search_btn2 i{font-size: 22px;}
-.product_search_form { box-shadow: rgba(0, 0, 0, 0.1)  0px 1px 4px 2px; border-radius: 25px;   }
+.product_search_form { box-shadow: rgba(0, 0, 0, 0.1)  0px 1px 4px 2px; border-radius: 5px; height: 50px;
+	margin: auto;  }
 .product_search_form input{border: none; color: #3774b9;}
 .custom_select select{border:0; background-color: transparent;}
 .navbar-collapse{justify-content: center;}
@@ -85,4 +86,119 @@ footer a, footer p{color: #fff;}
 		height: auto;}
 		.f-logo-pay{flex-direction: column;}
 .bank-offer{text-align: center;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.combo-select-dropdown.location ul{border-top-left-radius:5px ; border-bottom-left-radius: 5px;}
+.location ul{border-right: solid 1px #ccc;}
+ul.select-list-group-list .select-list-group-list-item {padding: 0 10px;}
+.input-group-prepend{width: calc(100% - 50px);}
+.location{max-width: 200px;}
+.combo-select-dropdown {position: relative;width: 100%;}
+
+.combo-select-dropdown input{ padding: 0 10px;	margin: 0;}
+.combo-select-dropdown li {
+  padding: 0;
+  margin: 0;
+}
+
+.combo-select-dropdown li {
+  position: relative;
+
+}
+
+.combo-select-dropdown ul {
+  list-style: none;
+  padding: 0;position: absolute;
+  z-index: 9999999; background-color: #fff;
+}
+
+.combo-select-dropdown li li:hover {
+  color: white;
+  background-color: grey;
+}
+
+.combo-select-dropdown li li.current {
+  color: white;
+  background-color: pink;
+}
+
+.combo-select-dropdown li li.active {
+  color: white;
+  background-color: skyblue;
+}
+
+.select-list-group {
+  position: relative;
+}
+
+.select-list-group,
+.select-list-group * {
+  width: 100%;
+}
+
+.select-list-group .select-list-group-search+.select-list-group__toggle:after {
+  content: "v";
+  font-family: sans-serif;
+  position: absolute;
+  top: .6rem;
+  right: .7rem;
+  width: 2rem;
+  padding: 0.6rem;
+  text-align: center;
+}
+
+.select-list-group .select-list-group-search:focus+.select-list-group__toggle:after {
+  content: "^";
+}
+
+.select-list-group [data-toggle="false"] {
+  display: none;
+}
+
+.select-list-group [data-toggle="true"] {
+  display: inherit;
+  box-shadow: 0 3px 7px -2px rgba(0, 0, 0, 0.2);
+}
+
+.select-list-group li[data-display="false"] {
+  display: none;
+}
+
+.select-list-group li[data-display="true"] {
+  display: inherit;
+}
+
+.select-list-group li[data-highlight="false"] {
+  border-left: 0;
+}
+
+.select-list-group li[data-highlight="true"] {
+  color: white;
+  background-color: grey;
+}
+
+.select-list-group::after {
+  position: absolute;
+  right: 0;
+  margin-right: -5px;
+  top: 25px;
+  right: 35px;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: url(https://image.flaticon.com/icons/png/512/25/25756.png);
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
 }
