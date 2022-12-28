@@ -28,11 +28,11 @@
 .nav_style1.owl-theme .owl-nav .owl-prev, .nav_style1.owl-theme .owl-nav .owl-next{background: transparent;}
 .get-app h3, .get-app h4{color: #3774b9;}
 .get-app h4{font-size: 20px;}
-footer h6{color: #878782;}
+footer h6{color: #fff;}
 footer a, footer p{color: #fff;}
 .logo-f{margin: 0 15px;}
 .bottom_footer{background-color: #172337; color: #fff;border-top: solid 1px #6a6a6a;}
-.bottom_header{background-color: #3577bc;}
+.bottom_header{background-color: #35bbbc;}
 .navbar .navbar-nav > li > a.active, .navbar .navbar-nav > li:hover > a{color: #fff;}
 .f-icons{display: flex; align-items: center;}
 .f-icons img{width: 20px; height: 20px;}
@@ -42,15 +42,18 @@ footer a, footer p{color: #fff;}
   }
 .banner_content{display: none;}
 .navbar-brand{max-width: 120px;}
-
-
+.cart_buttons a.checkout{color: #fff;}
+.nearest-shop .owl-nav{position: absolute;
+  top: -48px;
+  right: 80px;}
+  .nearest-shop .pr_action_btn li a{background-color: #fff;}
+  .nearest-shop.owl-theme .owl-nav [class*="owl-"]:hover{background-color: transparent; color: #35bbbc;}
 
 
 @media only screen and (min-width: 992px){
-.banner_content_inner {
-    padding: 0px 30px;
-}
+.banner_content_inner {    padding: 0px 30px;   }
 .border-top{border: none !important;}
+.navbar-expand-lg .navbar-nav{justify-content: space-between;  width: 100%;}
 }
 
 @media only screen and (max-width: 991px){
