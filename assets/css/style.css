@@ -4600,8 +4600,9 @@ footer .widget_title {
 	font-size: 24px;
 	margin-right: 0;
 }
+.custome-checkbox .form-check-label{color: #fff !important;}
 .form-note {
-	margin-top: 20px;
+	margin-top: 15px; color: #fff;
 }
 /*===================================*
   19.END 404 ERROR STYLE
@@ -4661,12 +4662,12 @@ overflow: hidden;
 	transform: translateY(-50%);
 }
 .btn-login li {
-	margin: 0px 5px 0;
+	margin: 0px 2px 0;
 	display: inline-block;
 }
 .btn-login li a {
 	border-radius: 5px;
-	padding: 10px 20px;
+	padding: 0px;
 	color: #fff;
 	display: block;
 }
