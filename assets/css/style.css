@@ -5857,7 +5857,7 @@ overflow: hidden;
 }
 .shop_cart_table th, .shop_cart_table td,
 .wishlist_table th, .wishlist_table td {
-	vertical-align: middle;
+	vertical-align: top;
 	text-align: center;
 }
 .shop_cart_table th.product-name, .shop_cart_table td.product-name,
@@ -5870,7 +5870,7 @@ overflow: hidden;
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-pack: center;
-	justify-content: center;
+	justify-content: start;
 }
 .product-remove a i {
 	height: 30px;

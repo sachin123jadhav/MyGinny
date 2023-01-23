@@ -102,7 +102,25 @@ body .relared-product .owl-theme .owl-nav button:hover{border: solid 1px #3577bc
 .widget.new-products .post_content .product_title{    white-space: initial;color: #3577bc;line-height: 1.2;}
 .widget.new-products .post_content .product_title a{color: #3577bc;    font-size: 12px;  }
 .category-view-btn{border: solid 1px #3577bc; padding: 5px 15px; border-radius: 10px;color: #3577bc; margin-top: 15px;}
-
+.cart-header{display: flex;  justify-content: space-between;  border: solid 1px #ededed;  padding: 25px 40px;
+  border-radius: 40px;}
+  .cart-header h5{margin: 0;color: #3575be; font-weight: 600;}
+.cart-section{border: solid 1px #ededed;  border-radius: 40px;padding: 25px;  margin-top: 25px;}
+.shop_cart_table .product-name a{color: #3575be;font-size: 24px;
+  font-weight: bold;}
+  .shop_cart_table .product-price{font-size: 24px; color: #293241;
+    font-weight: bold;}
+.cart-product{font-size: 24px; color: #818181;
+  font-weight: bold;margin-bottom: 20px;}
+  .cart-product span{ color: #3575be;}
+ .my-ginny-delivery{display: flex; margin-top: 10px;}   
+ .my-ginny-delivery img{max-width: 25px;margin-left: 20px;}
+ .my-ginny-delivery p{margin: 0;}
+ .cart-section .quantity{display: inline-block; border: solid 1px #3577bc; margin-top: 10px;border-radius: 10px;}
+ .cart-section .quantity .minus, .cart-section .quantity .plus{background-color: #fff;color: #3577bc;}
+ .cart-section input.qty{border: none;color: #3577bc;}
+ .cart-section table tr, .shop_cart_table .table,.shop_cart_table td{border: none;}
+.cart-header h4{color: #3577bc; margin: 0; font-weight: bold;}
 
 
 
@@ -154,6 +172,13 @@ body .relared-product .owl-theme .owl-nav button:hover{border: solid 1px #3577bc
 }
 
 
+@media only screen and (max-width:480px){
+.product-policy{flex-direction: column;}
+.policy-text br{display: none;}
+.policy-wrap{margin: 5px 0;}
+.shop_cart_table td.product-name{text-align: left;}
+.shop_cart_table .quantity{justify-content: start;}
+}
 
 
 
