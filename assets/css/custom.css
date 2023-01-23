@@ -89,12 +89,12 @@ body .relared-product .owl-theme .owl-nav button:hover{border: solid 1px #3577bc
   padding: 8px 10px;
   margin-top: 15px;border-radius: 10px;color: #3577bc;}
   .product_wrap.store:hover{border-color: #3575be;}
-.sidebar .widget{box-shadow: rgb(175 165 165 / 37%) 0px 0px 5px; padding: 10px; border-radius: 10px;}
+.sidebar .widget{box-shadow: rgb(175 165 165 / 37%) 0px 0px 5px; padding: 20px; border-radius: 10px;}
 
-.sidebar .widget .widget_title{font-size: 14px;color: #3577bc;border-bottom: solid 1px;
+.sidebar .widget .widget_title{font-size: 18px;color: #3577bc;border-bottom: solid 1px;
   padding-bottom: 6px;justify-content: space-between;    margin-bottom: 10px;
   display: flex;}
-  .sidebar .widget .widget_title a{text-transform: none;}
+  .sidebar .widget .widget_title a{text-transform: none ; font-size: 14px;}
 .widget_categories.category-list li a{    display: flex;}
 .widget_categories.category-list li a img{max-width: 20px;}
 .widget_categories.category-list li a::before{content: ' ';}
@@ -121,6 +121,27 @@ body .relared-product .owl-theme .owl-nav button:hover{border: solid 1px #3577bc
  .cart-section input.qty{border: none;color: #3577bc;}
  .cart-section table tr, .shop_cart_table .table,.shop_cart_table td{border: none;}
 .cart-header h4{color: #3577bc; margin: 0; font-weight: bold;}
+.table-borderless tr, .table-borderless td{border: none !important}
+.cart-total hr{margin: 0;}
+.text-blue{    color: #3577bc;}
+.cart-total table{margin: 0;}
+.coupon.field_form{margin: 10px 0 15px;}
+.product-detail{display: flex; align-items: center; justify-content: space-between;}
+div.sidebar .widget.related-product .post_content h5.product_title a{font-size: 18px; }
+div.sidebar .widget.related-product .post_img {
+  max-width: 70px;
+}
+.widget.related-product .post_content .price{font-size: 18px;}
+.cart-btn{border: solid 1px #ccc;    padding: 5px 8px;
+  border-radius: 10px;}
+  .related-product .widget_recent_post li:not(:last-child){margin-bottom: 25px;}
+  .related-product .post_content .product_price span.price{color: #818181;}
+.cart-header h6{margin: 0;}
+.cart_total_amount{text-align: right;}
+
+
+
+
 
 
 
@@ -129,7 +150,7 @@ body .relared-product .owl-theme .owl-nav button:hover{border: solid 1px #3577bc
 .banner_content_inner {    padding: 0px 30px;   }
 .border-top{border: none !important;}
 .navbar-expand-lg .navbar-nav{justify-content: space-between;  width: 100%;}
-#pr_item_gallery{overflow: hidden;}
+
 }
 
 @media only screen and (max-width: 991px){
@@ -178,6 +199,9 @@ body .relared-product .owl-theme .owl-nav button:hover{border: solid 1px #3577bc
 .policy-wrap{margin: 5px 0;}
 .shop_cart_table td.product-name{text-align: left;}
 .shop_cart_table .quantity{justify-content: start;}
+.shop_cart_table .product-name a{    font-size: 16px;}
+.cart-product,.shop_cart_table .product-price {  font-size: 18px;}
+.cart-header{    padding: 15px 25px; align-items: center;}
 }
 
 

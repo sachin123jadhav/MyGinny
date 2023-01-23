@@ -5018,15 +5018,20 @@ overflow: hidden;
 	display: none;
 }
 .pr_flash {
-	background-color: #FF9F00;
+	background-color: #3577bc;
 	position: absolute;
 	left: 10px;
 	top: 10px;
 	text-transform: uppercase;
 	color: #fff;
-	padding: 2px 8px;
+	padding: 5px 10px;
 	font-size: 13px;
 	z-index: 1;
+	position: absolute;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 .product_info {
 	padding: 15px 0;
