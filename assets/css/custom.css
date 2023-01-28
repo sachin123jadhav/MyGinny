@@ -152,13 +152,30 @@ div.sidebar .widget.related-product .post_img {
 .offers-store-search{    margin-bottom: 10px;  border-radius: 30px;  overflow: hidden;border: solid 1px #b7ebff;
   transition: all .3s; }
   .offers-store-search:hover{box-shadow: 0px 0px 10px 2px #0000001f;}
-  .widget .custome-checkbox .form-check-label {
-    color: #3575be !important;
+  .widget .custome-checkbox .form-check-label {   color: #3575be !important;}
+  .store-logo{border-radius: 50%; border: solid 4px #ccc; width: 200px; height: 200px; object-fit: cover;}
+.store-img{margin-top: -175px;}
+.profile-edit img{max-width: 25px;}
+.profile-edit{margin-top: 10px;z-index: 99;}
+h2.store-name{ color: #000; font-weight: bold;}
+h2.store-name span i{color: #2196f3; font-size: 25px;}
+.store-details{padding-left: 80px; }
+.store-address img{max-width: 25px;}
+.store-address h6, .store-address a{color: #293241;}
+.store-address i{font-size: 20px;    text-align: center;  width: 25px;}
+.store-address li{margin-bottom: 15px;}
+.product_title a{color: #2196f3;}
+.product-info.store-product-list .nav{justify-content: start;}
+.product-info.store-product-list .nav-item{flex: initial;}
+.tab-style3.product-info.store-product-list  .nav-tabs li.nav-item a{padding: 0.8rem 2rem;}
+.store-product-list .item{ border: solid 1px #e6e6e6;border-radius: 15px;    overflow: hidden}
+.product-info.store-product-list .product_info{
+  padding: 15px;
 }
-
-
-
-
+.product-info.store-product-list .product_wrap .product_title{ white-space: initial;}
+.product-info.store-product-list .product_price{display: flex;  align-items: center;  justify-content: space-between;font-size: 20px;}
+.product-info.store-product-list .product_wrap{margin-bottom: 0;}
+.product-info.store-product-list .item{margin-bottom: 20px;}
 
 
 
