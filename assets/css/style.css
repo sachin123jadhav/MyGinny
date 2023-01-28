@@ -5598,7 +5598,7 @@ overflow: hidden;
 	border-radius: 0;
 	background-color: #ddd;
 	height: 4px;
-	margin-bottom: 20px;
+	margin-bottom: 8px;
 }
 .ui-slider-horizontal .ui-slider-range {
 	top: 0;
@@ -6156,10 +6156,10 @@ select option {
 }
 .pagination_style1 .page-item a {
 	border: 2px solid #dee2e6;
-	border-radius: 0 !important;
+
 	color: #b2b2b2;
 	margin-left: 0px;
-	line-height: 36px;
+	line-height: 36px;border-radius: 50% ;
 }
 .pagination_style1 .page-item a i {
 	line-height: 36px;

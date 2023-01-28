@@ -818,5 +818,50 @@ PAGE JS
 		}, 3000);
 		
 	});	
+
+
+	/*===================================*
+	26. Distance FILTER JS
+	*===================================*/
+	$('#distance_filter').each( function() {
+		var $filter_selector = $(this);
+		var a = $filter_selector.data("min-value");
+		var b = $filter_selector.data("max-value");
+		var c = $filter_selector.data("price-sign");
+		$filter_selector.slider({
+			range: true,
+			min: $filter_selector.data("min"),
+			max: $filter_selector.data("max"),
+			values: [ a, b ],
+			slide: function( event, ui ) {
+				$( "#flt_distance" ).html( ui.values[ 0 ] +  c + " - "  + ui.values[ 1 ] + c);
+				$( "#distance_first" ).val(ui.values[ 0 ]);
+				$( "#distance_second" ).val(ui.values[ 1 ]);
+			}
+		});
+		$( "#flt_distance" ).html( $filter_selector.slider( "values", 0 ) + c + " - " + $filter_selector.slider( "values", 1 )  + c);
+	});
+
+	/*===================================*
+	27. Weight FILTER JS
+	*===================================*/
+	$('#weight_filter').each( function() {
+		var $filter_selector = $(this);
+		var a = $filter_selector.data("min-value");
+		var b = $filter_selector.data("max-value");
+		var c = $filter_selector.data("price-sign");
+		$filter_selector.slider({
+			range: true,
+			min: $filter_selector.data("min"),
+			max: $filter_selector.data("max"),
+			values: [ a, b ],
+			slide: function( event, ui ) {
+				$( "#flt_weight" ).html( ui.values[ 0 ] + c + " - "  + ui.values[ 1 ] + c);
+				$( "#weight_first" ).val(ui.values[ 0 ]);
+				$( "#weight_second" ).val(ui.values[ 1 ]);
+			}
+		});
+		$( "#flt_weight" ).html( $filter_selector.slider( "values", 0 ) + c + " - " + $filter_selector.slider( "values", 1 )  + c);
+	});
 	
 })(jQuery);
