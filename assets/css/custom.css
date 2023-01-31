@@ -260,6 +260,7 @@ h2.store-name span i{color: #2196f3; font-size: 25px;}
 .navbar .navbar-nav > li > a.active, .navbar .navbar-nav > li:hover > a{	color: #000;}
 .order-details{flex-direction: column;}
 .order-wrap{margin-bottom: 25px;}
+.mobile_side_menu .nav-link.show{color: #000;}
 
 }
 
