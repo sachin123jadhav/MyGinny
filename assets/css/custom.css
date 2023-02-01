@@ -192,14 +192,21 @@ h2.store-name span i{color: #2196f3; font-size: 25px;}
 .addresss .btn{padding: 5px 20px; text-transform: uppercase;}
 .addresss h5{color: #2d2d2d; margin-bottom: 15px;}
 .addresss p{color: #2d2d2d; margin-bottom: 5px; margin-top: 0;}
-.order-confirm-head .card{border-radius: 20px; border: solid 1px rgba(53, 117, 190, .2);padding: 5px 30px;}
+.order-confirm-head .card{border-radius: 20px; border: solid 1px rgba(53, 117, 190, .2);padding: 5px 35px;}
+.breadcrumb-item.active {
+  color: #3577bc;}
+  .breadcrumb-item a{color: #000;}
+  .search_form{    margin: auto 0 auto auto;}
+.placed-orders{display: flex;}
+.form-select:focus{box-shadow: none; border: solid 1px #000;}
+.form-select{background-color: #e3e3e3; border: solid 1px #e3e3e3; box-shadow: 0px 0px 1px 2px #00000033;}
 
-
-
-
-
-
-
+.last-orders{min-height: 120px; align-items: center; justify-content: center;
+  display: flex;}
+  .last-orders p{color: #000;}
+.heading_s5 h4{color: #000;}
+.not-yet-shipped{min-height:30vh; display: flex; align-items: center; justify-content: center;}
+.cancelled-orders-list .product{box-shadow: 0 0 7px rgba(0,0,0,0.1);}
 
 
 @media (min-width: 1200px){
@@ -275,6 +282,7 @@ h2.store-name span i{color: #2196f3; font-size: 25px;}
 .cart-product,.shop_cart_table .product-price {  font-size: 18px;}
 .cart-header{    padding: 15px 25px; align-items: center;}
 .product_img{text-align: center;}
+.relared-product .heading_tab_header{    margin-bottom: 50px;}
 }
 
 
