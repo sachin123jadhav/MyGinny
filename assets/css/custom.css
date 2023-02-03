@@ -292,6 +292,9 @@ h2.store-name span i{color: #2196f3; font-size: 25px;}
 .cart-header{    padding: 15px 25px; align-items: center;}
 .product_img{text-align: center;}
 .relared-product .heading_tab_header{    margin-bottom: 50px;}
+.profile-details .card-body {
+  padding: 10px;
+}
 }
 
 
