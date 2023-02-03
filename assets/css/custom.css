@@ -207,6 +207,15 @@ h2.store-name span i{color: #2196f3; font-size: 25px;}
 .heading_s5 h4{color: #000;}
 .not-yet-shipped{min-height:30vh; display: flex; align-items: center; justify-content: center;}
 .cancelled-orders-list .product{box-shadow: 0 0 7px rgba(0,0,0,0.1);}
+.profile-details .card-body{padding: 50px;}
+.badge-yellow{color: #000; background-color: #fdcc22; padding: 5px 15px; border-radius: 10px;}
+.profile-details p, .profile-details label{color: #000;}
+.profile-details .form-check{    margin-left: 10px;}
+
+.profile-details a{color: #3575be;}
+
+
+
 
 
 @media (min-width: 1200px){
