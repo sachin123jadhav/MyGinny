@@ -214,8 +214,9 @@ h2.store-name span i{color: #2196f3; font-size: 25px;}
 
 .profile-details a{color: #3575be;}
 
-
-
+.login_wrap{    border-radius: 5px;     box-shadow: 0 0 10px rgb(0 0 0 / 5%);}
+.login_register_wrap, .login_register_wrap .container{height: 100%;}
+.text-sm{font-size: 12px;}
 
 
 @media (min-width: 1200px){
